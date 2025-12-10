@@ -2,4 +2,5 @@
 .Rhistory
 .RData
 .Ruserdata
-do_not_commit/
+/ignore_this/
+/scripts/ignore_this.R
