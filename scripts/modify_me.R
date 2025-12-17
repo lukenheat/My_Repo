@@ -20,7 +20,7 @@ theme_ugly = function()
 
 modifyGeoms = function()
 { 
-  update_geom_defaults("line", list(color = "red",
+  update_geom_defaults("line", list(color = "blue",
                                     fill = "black"));
   update_geom_defaults("point", list(color = "green"));
   update_geom_defaults("smooth", list(color = "yellow",
