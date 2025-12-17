@@ -1,5 +1,6 @@
 rm(list=ls());                         # clear Environment tab
-library(package=ggplot2);              # get the GGPlot package
+library(package=ggplot2); # get the GGPlot package
+#blah
 
 # read in CSV file and save the content to weatherData
 weatherData = read.csv(file="data/Lansing2016NOAA.csv");
