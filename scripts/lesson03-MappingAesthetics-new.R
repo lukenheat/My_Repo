@@ -38,16 +38,7 @@ plot3 = ggplot( data=weatherData ) +
 plot(plot3);
 
 #### Part 3b: adding color to represent precip2 ####
-plot3b = ggplot( data=weatherData ) +
-  geom_point( mapping=aes(x=avgTemp, y=relHum, color=precip2) ) +
-  labs( title="Humidity vs Temperature",
-        subtitle="Lansing, MI -- 2016",
-        x = "Average Temperatures (Fahrenheit)",
-        y = "Relative Humidity") +
-  scale_x_continuous( breaks = seq(from=10, to=80, by=10) ) +
-  theme_bw() +
-  theme( axis.text.x=element_text(angle=90, vjust=0.5) );
-plot(plot3b);
+
 
 #### Part 3c: adding color to represent the string precip column ####
 plot3c = ggplot( data=weatherData ) +
@@ -58,7 +49,7 @@ plot3c = ggplot( data=weatherData ) +
         y = "Relative Humidity") +
   scale_x_continuous( breaks = seq(from=10, to=80, by=10) ) +
   theme_bw() +
-  theme( axis.text.x=element_text(angle=90, vjust=0.5) );
+  theme( axis.text.x=element_text(angle=80, vjust=0.5) );
 plot(plot3c);
 
 #### Part 4: adding size to represent precipitation ####
